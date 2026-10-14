@@ -15,6 +15,8 @@ import {
   Download,
 } from "lucide-react";
 
+import myLogo from './assets/myLogo.png';
+
 // PC Build Expense Tracker
 // Single-file React app (no backend). Data persists in localStorage.
 // Replace the placeholder logo with your own by uploading an image in-app.
@@ -189,20 +191,25 @@ function SectionTitle({ icon: Icon, title, subtitle, right }) {
   );
 }
 
+
 function LogoCorner({ logoDataUrl }) {
   return (
     <div className="absolute right-4 top-4">
       <div className="flex items-center gap-2 rounded-2xl bg-white/70 px-3 py-2 shadow-sm ring-1 ring-black/5 backdrop-blur">
-        {logoDataUrl ? (
-          <img src={logoDataUrl} alt="Logo" className="h-7 w-7 rounded-lg object-cover" />
-        ) : (
-          <div className="h-7 w-7 rounded-lg bg-zinc-200" />
-        )}
-        <div className="text-xs font-semibold text-zinc-900">Build Tracker</div>
+        <img
+          src={myLogo}
+          alt="RapidClawPCs Logo"
+          className="h-7 w-7 rounded-lg object-cover"
+        />
+
+        <div className="text-xs font-semibold text-zinc-900">
+          Build Tracker
+        </div>
       </div>
     </div>
   );
 }
+
 
 function ProfitBadge({ profit }) {
   if (profit > 0) {

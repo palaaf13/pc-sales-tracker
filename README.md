@@ -1,16 +1,50 @@
-# React + Vite
+# PC Sales Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web app I built to keep track of my PC building and selling side hustle. I wanted a simple way to organize my builds, track the cost of individual parts, record expenses, and see how much profit I'm making when I sell a PC.
 
-Currently, two official plugins are available:
+### Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[Try the PC Sales Tracker here](https://palaaf13.github.io/pc-sales-tracker/).
 
-## React Compiler
+Web app can be opened directly in your browser without installing anything.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Features
 
-## Expanding the ESLint configuration
+- Build tracking: Keep track of individual PC builds and their components.
+- Parts management: Track which parts have been purchased, which are still needed, and which aren't required.
+- Expense tracking: Record additional expenses associated with each build.
+- Profit and loss: Enter a sale price and compare it against your costs.
+- Build organization: Keep your builds organized in one place.
+- Browser-based storage: Save tracker data locally in your browser.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Built With
+
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+- Lucide React
+- GitHub Pages
+
+### Running Locally
+
+If you want to run the project on your own machine:
+
+1. Clone this repository: git clone https://github.com/palaaf13/pc-sales-tracker.git
+2. Open the project folder: cd pc-sales-tracker
+3. Install the dependencies: npm install
+4. Start the development server: npm run dev
+5. Open the local URL shown in your terminal.
+
+### Future Improvements
+
+Some things I'd like to explore as I continue developing this project:
+
+- Exporting and importing build data for backups
+- Adding charts and summaries to visualize sales and profits
+- Improving the interface and adding more build management features
+- Exploring cloud storage so data can be accessed across devices
+
+### Feedback
+
+If you try the demo and have suggestions for improvements, feel free to open an issue in this repository.
